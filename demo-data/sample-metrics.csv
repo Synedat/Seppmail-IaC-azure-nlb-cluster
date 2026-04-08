@@ -1,0 +1,5 @@
+metric,value,unit
+Deployment validation status,81,demo
+Probe health,82,demo
+Parameter completeness,83,demo
+Cluster topology readiness,84,demo
