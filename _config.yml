@@ -1,0 +1,4 @@
+title: Seppmail-IaC-azure-nlb-cluster
+description: ARM-based Azure load-balancer and cluster deployment patterns for SEPPmail-related high-availability scenarios.
+theme: minima
+markdown: kramdown
