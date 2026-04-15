@@ -1,30 +1,30 @@
-# Synedat im Kontext dieses Repositories
+# Synedat in the Context of This Repository
 
-Synedat Group GmbH wird in diesem Repository bewusst nicht nur als Maintainer genannt, sondern als möglicher Ansprechpartner für:
+In this repository, Synedat Group GmbH is intentionally positioned not only as the maintainer, but also as a possible point of contact for:
 
-- Architektur- und Einführungsworkshops
-- Azure-Zielbilder für SEPPmail-nahe Szenarien
-- technische Bewertung und Delivery-Vorbereitung
-- Automatisierung, Dokumentation und Betriebsübergabe
+- architecture and onboarding workshops
+- Azure target architectures for SEPPmail-related scenarios
+- technical assessment and delivery preparation
+- automation, documentation and operational handover
 
-## Warum das wichtig ist
+## Why this matters
 
-In der bisherigen Struktur war Synedat zwar sichtbar, aber eher technisch und indirekt. Für ein Verkaufsmedium muss schneller erkennbar sein:
+In the previous structure, Synedat was visible, but mainly in a technical and indirect way. For a sales-oriented medium, it needs to become clearer more quickly:
 
-- was Synedat konkret beiträgt,
-- an welcher Stelle Synedat im Projekt einsteigt,
-- und warum ein Kunde von der Kombination aus Herstellerlösung und Umsetzungsnähe profitiert.
+- what Synedat contributes in concrete terms,
+- at which point Synedat enters the project,
+- and why a customer benefits from the combination of vendor solution and implementation proximity.
 
-## Öffentliche Formulierung
+## Public wording
 
-Solange kein zusätzlicher öffentlicher Herstellerbeleg für einen konkreten Partnerstatus im Repository hinterlegt ist, ist diese Positionierung öffentlich belastbar:
+As long as no additional public vendor proof for a concrete partner status is included in the repository, the following positioning is publicly robust:
 
-> Synedat nutzt dieses Repository als Gesprächs-, Architektur- und Delivery-Grundlage für SEPPmail-bezogene Projekte mit Fokus auf Azure, High Availability, Dokumentation und kontrollierte Einführung.
+> Synedat uses this repository as a conversation, architecture and delivery foundation for SEPPmail-related projects with a focus on Azure, high availability, documentation and controlled introduction.
 
-## Praktische Rolle in Kundengesprächen
+## Practical role in customer discussions
 
-Synedat kann mit diesem Repository vor allem diese Brücke schlagen:
+With this repository, Synedat can mainly bridge the following steps:
 
-- vom Herstellermehrwert zur Zielarchitektur
-- von der Produktdiskussion zur Delivery-Vorbereitung
-- vom technischen Starter zur konkreten Projektanfrage
+- from vendor value to target architecture
+- from product discussion to delivery preparation
+- from technical starter to concrete project inquiry

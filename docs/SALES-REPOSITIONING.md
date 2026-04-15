@@ -1,54 +1,54 @@
-# Analyse und Repositionierung des Repositories
+# Repository Analysis and Repositioning
 
-## Ausgangslage
+## Starting point
 
-Das Repository war bereits technisch stark und inhaltlich sehr umfangreich. Es vermittelte jedoch vor allem ein Bild von Architektur, Betrieb, Governance und Dokumentation.
+The repository was already technically strong and very comprehensive in terms of content. However, it mainly communicated architecture, operations, governance and documentation.
 
-Für ein Verkaufsmedium über Synedat gab es drei Schwächen:
+For use as a sales medium through Synedat, there were three main weaknesses:
 
-1. Synedat war sichtbar, aber nicht klar als Ansprechpartner für den nächsten Projektschritt positioniert.
-2. Der Kundennutzen stand hinter der Technik zurück.
-3. Herstellerbezug, Bildmaterial und Quellenangaben waren nicht als vertriebsnahe Argumentationskette aufbereitet.
+1. Synedat was visible, but not clearly positioned as the contact point for the next project step.
+2. Customer value was less visible than the technical depth.
+3. Vendor context, imagery and source references were not prepared as a sales-oriented argument chain.
 
-## Was geändert wurde
+## What was changed
 
-### 1. README neu ausgerichtet
+### 1. README repositioned
 
-- stärkerer Hero mit Nutzen und Zielbild
-- Synedat als Ansprechpartner klarer eingeordnet
-- Quellen- und Bildhinweise ergänzt
-- schnellere Orientierung für Presales und Workshops
+- stronger hero section with value and target picture
+- clearer positioning of Synedat as the contact point
+- source and image notes added
+- faster orientation for presales and workshops
 
-### 2. Landing Page neu ausgerichtet
+### 2. Landing page repositioned
 
-- deutsches Wording statt generischer Demo-Seite
-- SEPPmail-Mehrwert und Synedat-Rolle direkt im Hero
-- klarere CTA-Logik
-- Herstellerbild mit Ursprungshinweis eingebunden
+- sales-oriented wording instead of a generic demo page
+- SEPPmail value and the Synedat role directly in the hero section
+- clearer CTA logic
+- vendor image embedded with origin note
 
-### 3. Dokumentation für Vertrieb nachgeschärft
+### 3. Documentation sharpened for sales use
 
-- `docs/SYNEDAT.md` neu positioniert
-- `docs/SEPPMAIL-REFERENCES.md` erweitert und bereinigt
-- `docs/IMAGE-SOURCES.md` ergänzt
+- `docs/SYNEDAT.md` repositioned
+- `docs/SEPPMAIL-REFERENCES.md` expanded and cleaned up
+- `docs/IMAGE-SOURCES.md` added
 
-## Zentrale Empfehlung
+## Central recommendation
 
-Wenn öffentlich besonders deutlich werden soll, dass Synedat offizieller SEPPmail-Partner ist, sollte zusätzlich ein belastbarer externer Nachweis eingebunden werden, etwa:
+If it should become especially clear in public that Synedat is an official SEPPmail partner, an externally verifiable proof should be added, for example:
 
-- offizieller Herstellerlink auf Synedat
-- Herstellerfreigabe
-- Partnerlogo mit Nutzungsfreigabe
-- verifizierbare Referenz im Partnerverzeichnis
+- an official vendor link to Synedat
+- explicit vendor approval
+- a partner logo with usage permission
+- a verified reference in the partner directory
 
-Ohne diesen Nachweis ist die stärkste öffentliche Positionierung derzeit:
+Without that proof, the strongest public positioning at the moment is:
 
-> Synedat nutzt dieses Repository als vertriebsnahe, architektonische und delivery-orientierte Arbeitsgrundlage für SEPPmail-bezogene Projekte.
+> Synedat uses this repository as a sales-oriented, architectural and delivery-focused working foundation for SEPPmail-related projects.
 
-## Nächste sinnvolle Ausbaustufen
+## Recommended next expansion steps
 
-- Kontaktblock mit konkretem Ansprechpartner bei Synedat
-- Referenzstory oder Kundenszenario
-- Architekturvergleich „Ist / Zielbild / Projektvorgehen"
-- Demo-Skript für Erstgespräche
-- offizieller Partnernachweis oder freigegebenes Partnermaterial
+- contact block with a concrete Synedat contact person
+- reference story or customer scenario
+- architecture comparison such as “current state / target state / project approach”
+- demo script for initial conversations
+- official partner proof or approved partner material

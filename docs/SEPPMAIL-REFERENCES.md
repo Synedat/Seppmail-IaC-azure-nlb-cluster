@@ -1,17 +1,17 @@
-# Offizielle SEPPmail-Referenzen
+# Official SEPPmail References
 
-Diese Datei bündelt öffentliche Herstellerquellen, die für die Positionierung dieses Repositories relevant sind.
+This file consolidates public vendor sources that are relevant to the positioning of this repository.
 
-## Produkt und Funktionen
+## Product and features
 
 - Secure E-Mail Gateway:
-  https://www.seppmail.com/de/produkte/secure-e-mail-gateway/
-- Startseite DE:
-  https://www.seppmail.com/de/
-- Secure E-Mail Gateway EN:
   https://www.seppmail.com/products/secure-email-gateway/
+- Homepage EN:
+  https://www.seppmail.com/
+- Secure E-Mail Gateway DE:
+  https://www.seppmail.com/de/produkte/secure-e-mail-gateway/
 
-## Hochverfügbarkeit und Cluster
+## High availability and clustering
 
 - High Availability Cluster:
   https://docs.seppmail.com/en/04_com_09_cl_02_high-availability-cluster.html
@@ -20,28 +20,28 @@ Diese Datei bündelt öffentliche Herstellerquellen, die für die Positionierung
 - General cluster modes:
   https://docs.seppmail.com/en/04_com_09_cl_01_general.html
 
-## Partner, Vertrieb und Support
+## Partners, sales and support
 
-- Partnerübersicht:
-  https://www.seppmail.com/de/partner/
-- Partnerprogramm:
-  https://www.seppmail.com/de/partner/partnerprogramm/
+- Partner overview:
+  https://www.seppmail.com/partner/
+- Partner program:
+  https://www.seppmail.com/partner/partner-program/
 - Support:
-  https://www.seppmail.com/de/support/
-- Partnerportal DE/AT:
+  https://www.seppmail.com/support/
+- Partner portal DE/AT:
   https://partner.seppmail.com/
 
-## Warum diese Quellen wichtig sind
+## Why these sources matter
 
-Diese Herstellerquellen stützen die öffentliche Argumentation zu folgenden Punkten:
+These vendor sources support the public argument for the following points:
 
-- SEPPmail bietet Funktionsbausteine wie Verschlüsselung, GINA, Cluster, Integration und Monitoring.
-- SEPPmail kommuniziert ein Partner- und Vertriebskonzept mit zertifizierten Systemintegratoren und Cloud-Anbietern.
-- SEPPmail verweist Endkunden im Support- und Einführungsumfeld auf akkreditierte bzw. zertifizierte Partner.
+- SEPPmail offers building blocks such as encryption, GINA, clustering, integration and monitoring.
+- SEPPmail communicates a partner and sales model with certified system integrators and cloud providers.
+- SEPPmail directs end customers to accredited or certified partners for support and introduction scenarios.
 
-## Synedat-Kontext
+## Synedat context
 
 - Synedat Group GmbH:
   https://www.synedat.com/
 
-Hinweis: Diese Referenzseite dokumentiert offizielle Herstellerquellen. Sie ersetzt keinen individuellen Partnernachweis von Synedat, falls eine solche Aussage öffentlich und rechtssicher besonders prominent gemacht werden soll.
+Note: This reference page documents official vendor sources. It does not replace an individual public partner proof for Synedat if such a statement is intended to be made especially prominently and in a legally robust way.

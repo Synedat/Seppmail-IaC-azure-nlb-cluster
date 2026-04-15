@@ -1,25 +1,25 @@
-# Bild- und Ursprungsangaben
+# Image and Origin Notes
 
-## Verwendetes externes Bild
+## External image used
 
-### Datei
+### File
 
 - `docs/images/seppmail-secure-email-gateway.jpg`
 
-### Ursprung
+### Origin
 
-- Hersteller: SEPPmail AG
-- Ursprungsseite:
+- Vendor: SEPPmail AG
+- Source page:
   https://www.seppmail.com/de/produkte/secure-e-mail-gateway/
-- Direkt referenzierte Bilddatei:
+- Direct image file referenced:
   https://www.seppmail.com/wp-content/uploads/2021/02/Produkt-SEG.jpg
-- Bezeichnung auf der Seite:
-  „Verpackung des Produktes Secure E-Mail Gateway von SEPPmail“
+- Page label:
+  “Packaging of the Secure E-Mail Gateway product from SEPPmail”
 
-## Zweck der Einbindung
+## Purpose of inclusion
 
-Die Abbildung wurde als visuelle Ergänzung für die überarbeitete Landing-Page- und README-Positionierung aufgenommen, damit der SEPPmail-Bezug unmittelbar sichtbar ist.
+The image was added as a visual complement to the revised landing page and README positioning so that the SEPPmail context is immediately visible.
 
-## Wichtiger Hinweis
+## Important note
 
-Die öffentliche Auffindbarkeit eines Bildes im Web ist keine automatische Freigabe für jede Form der Weiterverwendung. Vor einer dauerhaften öffentlichen, kommerziellen oder kampagnenbezogenen Nutzung sollte geprüft werden, ob für die konkrete Nutzung eine ausdrückliche Freigabe, Partnerregelung oder Herstellereinwilligung vorliegt.
+The public availability of an image on the web is not an automatic license for every form of reuse. Before any permanent public, commercial or campaign-related use, it should be checked whether explicit approval, a partner rule or vendor consent exists for the specific use.

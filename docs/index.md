@@ -1,32 +1,31 @@
-# SEPPmail auf Azure mit Synedat
+# SEPPmail on Azure with Synedat
 
-Dieses Repository ist als **technischer Starter** und als **vertriebsfähige Gesprächsgrundlage** für SEPPmail-bezogene Azure- und High-Availability-Szenarien aufgebaut.
+This repository is structured both as a **technical starter** and as a **sales-ready conversation asset** for SEPPmail-related Azure and high-availability scenarios.
 
-## Zielbild
+## Why this repository exists
 
-Die Inhalte sollen nicht nur technische Artefakte zeigen, sondern auch verständlich machen,
+The content is not meant to show technical artifacts only. It is also meant to make the following points understandable:
 
-- warum SEPPmail für sichere E-Mail-Kommunikation relevant ist,
-- wie Azure- und HA-Szenarien strukturiert gedacht werden können,
-- und warum Synedat ein sinnvoller Ansprechpartner für Architektur, Einführung und Delivery ist.
+- why SEPPmail matters for secure email communication,
+- how Azure and HA scenarios can be structured,
+- and why Synedat is a useful point of contact for architecture, introduction and delivery.
 
-## Einstieg
+## What you will find here
 
-1. `README.md`
-2. `pages/index.html`
-3. `docs/SYNEDAT.md`
-4. `docs/SEPPMAIL-REFERENCES.md`
-5. `docs/ARCHITECTURE.md`
-6. `docs/OPERATIONS.md`
+- architecture and implementation notes
+- security, compliance and control mapping content
+- example scripts and reusable patterns
+- operations, troubleshooting and observability guidance
+- usable assets for demos, workshops and architecture conversations
 
-## Was hier besonders wichtig ist
+## Audience
 
-- klare Nutzenargumentation statt rein technischer Selbstbeschreibung
-- sichtbare Positionierung von Synedat
-- nachvollziehbare Hersteller- und Quellenbezüge
-- nutzbare Assets für Demo, Workshop und Architekturgespräch
+Cloud platform engineers, architects, delivery leads, presales teams and stakeholders evaluating SEPPmail-related Azure scenarios.
 
-## Hersteller- und Quellenbezug
+## Focus areas
 
-Die öffentlichen Produkt- und Partnerinformationen von SEPPmail sind in `docs/SEPPMAIL-REFERENCES.md` zusammengeführt.
-Die Herkunft des verwendeten Produktbilds ist in `docs/IMAGE-SOURCES.md` dokumentiert.
+ARM templating, deployment validation, network design, availability thinking and change-safe rollout.
+
+## Vendor and source context
+
+The public product and partner information from SEPPmail is consolidated in `docs/SEPPMAIL-REFERENCES.md`.

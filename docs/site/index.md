@@ -1,17 +1,19 @@
-# SEPPmail auf Azure mit Synedat
+# SEPPmail on Azure with Synedat
 
-Dieses Repository ist als **technischer Starter**, **Demo-Unterlage** und **vertriebsfähige Gesprächsgrundlage** für SEPPmail-nahe Azure-Szenarien konzipiert.
+This repository is designed as a **technical starter**, **demo asset** and **sales-ready conversation foundation** for SEPPmail-related Azure scenarios.
 
-## Nutzen
+## What the site should communicate
 
-- Architektur und HA-Grundlagen verständlich machen
-- SEPPmail-Kontext mit Azure- und Betriebsbezug verbinden
-- Synedat als Ansprechpartner für Architektur, Einführung und Umsetzung sichtbar machen
+The site should help visitors quickly understand:
 
-## Einstieg
+- the architecture and HA fundamentals,
+- the connection between SEPPmail, Azure and operations,
+- and Synedat’s role as a counterpart for architecture, introduction and implementation.
 
-- `README.md`
-- `pages/index.html`
-- `docs/SYNEDAT.md`
-- `docs/SEPPMAIL-REFERENCES.md`
-- `docs/SALES-REPOSITIONING.md`
+## Suggested use
+
+Use this site for:
+
+- initial overview and scoping discussions
+- architecture and workshop preparation
+- presales communication with a technical foundation

@@ -2,39 +2,39 @@
 
 ## Hero
 
-**SEPPmail auf Azure mit Synedat**
+**SEPPmail on Azure with Synedat**
 
-Technischer Starter, Demo-Repository und Gesprächsgrundlage für sichere E-Mail-Kommunikation, High Availability und kontrollierte Einführung.
+Technical starter, demo repository and conversation asset for secure email communication, high availability and controlled introduction.
 
-## Kurzpitch
+## Short pitch
 
-Dieses Repository zeigt, wie sich SEPPmail-bezogene Azure- und HA-Szenarien strukturiert vorbereiten, architektonisch bewerten und in Richtung Delivery überführen lassen.
+This repository shows how SEPPmail-related Azure and HA scenarios can be prepared in a structured way, assessed architecturally and moved toward delivery.
 
-## Nutzenblöcke
+## Value blocks
 
-### Warum SEPPmail
+### Why SEPPmail
 
-- automatische E-Mail-Verschlüsselung
-- Unterstützung gängiger Standards
-- Hochverfügbarkeit und Clusterfähigkeit
-- Integration in bestehende Verzeichnis- und Betriebsumgebungen
+- automated email encryption
+- support for common standards
+- high availability and clustering capabilities
+- integration into existing directory and operating environments
 
-### Warum Synedat
+### Why Synedat
 
-- Architektur- und Einführungsworkshops
-- technische Einordnung für Azure und Betrieb
-- Delivery-nahe Dokumentation und Automatisierung
-- strukturierte Übergabe in Richtung Umsetzung
+- architecture and onboarding workshops
+- technical assessment for Azure and operations
+- delivery-oriented documentation and automation
+- structured handover toward implementation
 
-### Was dieses Repo liefert
+### What this repo delivers
 
-- Architektur- und Betriebsdokumentation
-- ARM- und Deployment-Artefakte
-- Demo- und Workshop-Material
-- Quellen- und Bildnachweise
+- architecture and operations documentation
+- ARM and deployment artifacts
+- demo and workshop material
+- source and image attribution
 
-## CTA-Vorschläge
+## Suggested CTAs
 
-- Architekturgespräch mit Synedat starten
-- Repository als Demo- und Workshop-Basis verwenden
-- Offizielle SEPPmail-Produktinformationen lesen
+- Start an architecture conversation with Synedat
+- Use the repository as a demo and workshop foundation
+- Read the official SEPPmail product information
