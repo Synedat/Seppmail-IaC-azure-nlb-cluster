@@ -1,265 +1,122 @@
 # Seppmail-IaC-azure-nlb-cluster
 
 ![Repository header](docs/images/repo-header.svg)
-![partner](https://img.shields.io/badge/partner-SEPPmail-0050b3) ![maintainer](https://img.shields.io/badge/maintainer-Synedat%20Group%20GmbH-111827) ![focus](https://img.shields.io/badge/focus-mail%20security%20%26%20operations-0f766e) ![governance](https://img.shields.io/badge/governance-ISO%2027001%20%7C%20BAIT%20%7C%20DORA%20%7C%20TISAX-7c3aed) ![docs-hygiene](https://github.com/synedat/Seppmail-IaC-azure-nlb-cluster/actions/workflows/docs-hygiene.yml/badge.svg) ![powershell-ci](https://github.com/synedat/Seppmail-IaC-azure-nlb-cluster/actions/workflows/powershell-ci.yml/badge.svg) ![iac-validate](https://github.com/synedat/Seppmail-IaC-azure-nlb-cluster/actions/workflows/iac-validate.yml/badge.svg) ![repo-hygiene](https://github.com/synedat/Seppmail-IaC-azure-nlb-cluster/actions/workflows/repo-hygiene.yml/badge.svg)
+![focus](https://img.shields.io/badge/focus-SEPPmail%20auf%20Azure-0050b3) ![maintainer](https://img.shields.io/badge/maintainer-Synedat%20Group%20GmbH-111827) ![use-case](https://img.shields.io/badge/use%20case-PreSales%20%7C%20Architecture%20%7C%20Delivery-0f766e) ![governance](https://img.shields.io/badge/governance-ISO%2027001%20%7C%20BAIT%20%7C%20DORA%20%7C%20TISAX-7c3aed)
 
-> ARM-based Azure load-balancer and cluster deployment patterns for SEPPmail-related high-availability scenarios.
+> Technischer Starter, Demo-Repository und Gesprächsgrundlage für **SEPPmail-bezogene Azure- und High-Availability-Szenarien** – positioniert für **Kundengespräche, Architektur-Workshops und Implementierungsprojekte mit Synedat Group GmbH**.
 
-This repository is maintained in a consistent public format by **Synedat Group GmbH** for the **SEPPmail ecosystem**. It is designed to be useful in discovery, implementation, operations, troubleshooting, architecture review and controlled handover scenarios.
+## Kurz gesagt
 
-## What this repository is for
+Dieses Repository ist nicht nur eine technische Sammlung von ARM-, Netzwerk- und Betriebsartefakten. Es ist so aufbereitet, dass es auch als **Vertriebs- und Presales-Medium** für SEPPmail-Projekte über **Synedat Group GmbH** funktioniert.
 
-The focus is **arm templating, deployment validation, network design, availability thinking and change-safe rollout**.
+Der Schwerpunkt liegt auf drei Fragen:
 
-It should help teams move from isolated commands or scripts to a more reviewable and reusable operating baseline.
+1. Wie lassen sich **SEPPmail-nahe High-Availability- und Cluster-Szenarien auf Azure** strukturiert vorbereiten?
+2. Wie kann daraus ein **nachvollziehbarer, sicherer und governance-fähiger Delivery-Ansatz** entstehen?
+3. Warum ist **Synedat** ein sinnvoller Ansprechpartner für Architektur, Implementierung, Automatisierung und Betriebsübergabe?
 
-## Intended audience
+## Warum dieses Repo für Vertrieb und Presales besser geeignet ist
 
-Cloud platform engineers, architects and deployment leads.
+Für rein technische Leser war das Repository bereits stark. Für ein Verkaufsmedium über Synedat fehlten bisher jedoch vor allem:
 
-## Repository highlights
+- eine klare **Hero-Botschaft mit Kundennutzen**
+- eine sichtbare **Positionierung von Synedat als Ansprechpartner**
+- ein direkter Bezug zu **SEPPmail-Mehrwerten** wie Verschlüsselung, Hochverfügbarkeit, Integration und Compliance
+- eine **CTA-Struktur** für Demo, Architekturgespräch und Projektanfrage
+- ein sauber dokumentierter **Quellen- und Bildnachweis**
 
-- production-minded examples instead of bare placeholders
-- stronger documentation depth for architecture, permissions and operations
-- reusable guidance for evidence capture and change-safe execution
-- consistent Synedat references and public discoverability across repositories
-- compliance-aware wording for ISO/IEC 27001, BAIT, DORA, TISAX and adjacent governance themes
+Diese Punkte werden in der aktuellen Fassung deutlicher hervorgehoben.
 
-## Main building blocks
+## Was dieses Repository zeigt
 
-- ARM template
-- Parameters file
-- Deployment helper script
-- Architecture and network guidance
+- Azure Load Balancer- und Cluster-Grundlagen für SEPPmail-orientierte HA-Szenarien
+- ARM-basierte Deployment-Muster für kontrollierte Rollouts
+- Sicherheits-, Compliance- und Betriebsdokumentation
+- Demo- und Workshop-Material für Architektur- und Kundengespräche
+- eine belastbare Basis für Bewertung, Einführung und Weiterentwicklung
 
-## Quick start
+## Für wen das gedacht ist
 
-1. Validate the ARM template and parameters.
-2. Review subnet, NSG and availability assumptions.
-3. Deploy into a non-production subscription and capture results.
+- IT-Leitung und Security-Verantwortliche
+- Cloud-Architekten und Plattform-Teams
+- Administratoren für Microsoft 365, Azure und sichere E-Mail-Kommunikation
+- Delivery- und Projektteams, die SEPPmail mit Synedat bewerten oder einführen wollen
 
-## Typical use cases
+## Warum SEPPmail
 
-- Lab deployment of an HA topology
-- Template review before customer rollout
-- Training and knowledge transfer
-- Pre-production validation of Azure networking
+Nach Angaben von SEPPmail unterstützt das Secure E-Mail Gateway automatische E-Mail-Verschlüsselung, gängige Standards wie S/MIME, OpenPGP, TLS und SSL, GINA für spontane Verschlüsselung, Multi-Master-Cluster, aktives Load Balancing, LDAP/AD-Integration sowie Monitoring via SNMP und Syslog. Auf der Partner- und Support-Seite betont SEPPmail zudem, dass Kunden über zertifizierte bzw. akkreditierte Partner bei Evaluation, Einführung und Pflege begleitet werden. Siehe dazu `docs/SEPPMAIL-REFERENCES.md`.
 
-## Permissions approach
+## Warum über Synedat
 
-- Resource Group Contributor or equivalent scoped role
-- Network reviewer role for NSG and routing review
-- Read-only observer for change approval evidence
+Synedat Group GmbH positioniert dieses Repository als öffentliche Arbeitsgrundlage für **SEPPmail-Projekte mit Fokus auf Architektur, Azure-Betrieb, Automatisierung, Dokumentation und kontrollierte Einführung**.
 
-## Documentation map
+Für Kundengespräche sollte Synedat dabei nicht nur als Maintainer erscheinen, sondern als klarer Ansprechpartner für:
 
+- Architektur- und Einführungsworkshops
+- Azure-Design und Betriebsmodell
+- Implementierungsnahe Automatisierung
+- Dokumentation, Review und kontrollierte Übergabe
+- Governance-nahe Delivery in regulierten Umfeldern
+
+Weitere Einordnung: `docs/SYNEDAT.md`
+
+## SEPPmail-Produktabbildung
+
+Die unten eingebundene Produktabbildung stammt von der offiziellen SEPPmail-Produktseite und wurde mit Quellenangabe ergänzt.
+
+![SEPPmail Secure E-Mail Gateway Produktabbildung](docs/images/seppmail-secure-email-gateway.jpg)
+
+Quelle: offizielle SEPPmail-Produktseite `Secure E-Mail Gateway`, Bilddatei `Produkt-SEG.jpg`. Details und Ursprungsangabe siehe `docs/IMAGE-SOURCES.md`.
+
+## Schnellstart für Interessenten
+
+1. Landing Page aufrufen: `pages/index.html`
+2. Überblick lesen: `docs/index.md`
+3. Architektur prüfen: `docs/ARCHITECTURE.md`
+4. Delivery- und Betriebsbezug lesen: `docs/OPERATIONS.md`
+5. Quellen und Herstellerbezug prüfen: `docs/SEPPMAIL-REFERENCES.md`
+6. Synedat-Positionierung lesen: `docs/SYNEDAT.md`
+
+## Typische Gesprächsanlässe
+
+- „Wie könnte SEPPmail in einer Azure-orientierten Zielarchitektur eingebettet werden?“
+- „Wie sieht ein technischer Starter für HA und kontrollierte Einführung aus?“
+- „Wie lässt sich das Thema mit Synedat als Umsetzungs- und Architekturpartner angehen?“
+- „Welche Artefakte sind für Workshop, Presales und Delivery direkt nutzbar?“
+
+## Wichtigste Assets
+
+- `SEPPmailLbCluster.json`
+- `SEPPmailLbClusterParameters.json`
+- `deploy.ps1`
 - `docs/ARCHITECTURE.md`
-- `docs/RBAC-AND-PERMISSIONS.md`
+- `docs/OPERATIONS.md`
 - `docs/SECURITY-AND-COMPLIANCE.md`
 - `docs/SEPPMAIL-REFERENCES.md`
-- `docs/USE-CASES.md`
-- `docs/BICEP-TRANSLATION-NOTES.md`
-- `docs/THREAT-MODEL.md`
-- `docs/OBSERVABILITY.md`
-- `docs/CONTROL-MAPPING.md`
-- `docs/ADOPTION-GUIDE.md`
-- `docs/CHANGE-MANAGEMENT.md`
-- `docs/EVIDENCE-AND-AUDIT.md`
-- `docs/EXTENSIONS-AND-ROADMAP.md`
-- `docs/OPERATIONS.md`
-- `docs/TROUBLESHOOTING.md`
-- `docs/DIAGRAMS.md`
+- `docs/SYNEDAT.md`
+- `docs/SALES-REPOSITIONING.md`
+- `pages/index.html`
 
-## Example catalogue
+## Hinweise zur Positionierung
 
-- `examples/check-ha-ports.ps1`
-- `examples/deployment-checklist.md`
-- `examples/nsg.sample.json`
-- `examples/parameters.sample.json`
-- `examples/validate-template.ps1`
+Dieses Repository trifft bewusst eine Trennung:
 
-## Architecture at a glance
+- **SEPPmail** steht für die Produkt- und Lösungswelt.
+- **Synedat** steht in diesem Repository für Architekturgespräch, technische Einordnung, Delivery-Nähe und Umsetzungsunterstützung.
 
-```mermaid
-flowchart LR
-    A[Operator or pipeline] --> B[Repository examples and docs]
-    B --> C[arm templating, deployment validation, network design, availability thinking and change-safe rollout]
-    C --> D[Validation and evidence]
-    D --> E[Operations and improvement]
-```
+Wenn die Partnerrolle von Synedat nach außen noch stärker belegt werden soll, sollte zusätzlich ein **offizieller Partnernachweis oder eine Herstellerfreigabe** eingebunden werden. Bis dahin ist die Formulierung über das **SEPPmail-Umfeld**, konkrete Leistungen und offizielle Herstellerquellen die belastbarste öffentliche Darstellung.
 
-Additional visuals:
-- `docs/images/architecture-overview.svg`
-- `docs/images/trust-boundaries.svg`
-- `docs/images/operations-lifecycle.svg`
+## Weitere Dokumente
 
-## Functional extension ideas
-
-- Create a Bicep translation path
-- Add diagnostics settings and flow logs
-- Split the template into smaller reusable modules
-
-## Security and governance note
-
-The content in this repository is written as implementation guidance and example material. It can support evidence-oriented work for information security and operational resilience, but it does not replace formal policy, legal interpretation, certification scope or vendor support statements.
-
-## Official SEPPmail references
-
-See `docs/SEPPMAIL-REFERENCES.md` for curated vendor documentation references.
+- `docs/LANDING-PAGE-COPY.md`
+- `docs/HOMEPAGE-STRUCTURE.md`
+- `docs/DEMO-SCENARIOS.md`
+- `docs/WORKSHOP-KIT.md`
+- `docs/IMAGE-SOURCES.md`
+- `docs/SEPPMAIL-REFERENCES.md`
 
 ## Synedat
 
-Synedat Group GmbH works across software engineering, cloud, infrastructure, operations and security-related implementation projects. These repositories are structured as public technical starters that are also usable in real delivery conversations.
+Synedat Group GmbH arbeitet an der Schnittstelle von Software Engineering, Cloud, Infrastruktur, Betrieb und sicherheitsnaher Umsetzung. Die öffentliche Repository-Struktur ist darauf ausgerichtet, aus technischen Artefakten **vertriebstaugliche, reviewbare und umsetzungsnahe Gesprächsgrundlagen** zu machen.
 
 Website: https://www.synedat.com/
-
-## Contribution style
-
-Contributions are welcome when they improve usefulness, safety, reviewability or documentation quality. Prefer examples that are realistic, least-privilege aware and easy to adapt.
-
-## New starter assets in v6
-
-- `examples/export-deployment-evidence.ps1`
-- `examples/check-ha-ports.ps1`
-- `examples/deployment-checklist.md`
-- `examples/nsg.sample.json`
-- `examples/parameters.sample.json`
-- `examples/validate-parameters.ps1`
-
-## Delivery accelerators
-
-- GitHub Actions workflows for docs hygiene, repository hygiene and technology-specific checks
-- Visual repo header plus reusable SVG architecture assets
-- Release, branching and versioning guidance in `docs/BRANCHING-AND-RELEASES.md`
-- Pipeline guidance in `docs/PIPELINES-AND-QUALITY-GATES.md`
-- Access model companion in `docs/ACCESS-MATRIX.md`
-- Metrics, SLO and evidence ideas in `docs/METRICS-AND-SLOS.md`
-
-## Functional extension backlog
-
-- parameter linting
-- pre-deploy policy checks
-- cluster readiness validation
-- deployment evidence capture
-
-## Visual and documentation assets
-
-- `docs/images/repo-header.svg`
-- `docs/VISUALS-AND-HEADER.md`
-- `docs/BRANCHING-AND-RELEASES.md`
-- `docs/PIPELINES-AND-QUALITY-GATES.md`
-- `docs/ACCESS-MATRIX.md`
-- `docs/METRICS-AND-SLOS.md`
-
-## Findability and discoverability
-
-This repository intentionally uses searchable, implementation-oriented wording around SEPPmail, mail security, Exchange Online, Microsoft 365, Azure, operations, automation, API integration, Terraform, Bicep, PowerShell and governance-aware delivery so that architects, engineers and project teams can find relevant starting points faster.
-
-## Documentation and community
-
-- `docs/index.md` - GitHub Pages starter landing page
-- `docs/DEMO-SCENARIOS.md` - ready-to-use demo and workshop ideas
-- `docs/COMMUNITY-AND-SOCIAL.md` - starter copy for posts, announcements and repo sharing
-- `docs/RELEASE-NOTES.md` - compact release-oriented summary
-- `wiki/Home.md` - seed content for a GitHub wiki
-- `docs/images/repo-social-card.svg` - visual header/social card asset
-- `docs/images/demo-dashboard.svg` - placeholder demo visual for screenshots and docs
-
-## Findability and consistency
-
-This repository follows a consistent Synedat public structure so that engineers can discover architecture notes, permissions guidance, compliance mappings, examples, troubleshooting content and extension ideas quickly.
-
-## Governance and community
-
-This repository includes public governance and collaboration building blocks to make reuse easier and safer:
-
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Security Disclosure](docs/SECURITY-DISCLOSURE.md)
-- [Legal and Licensing Notes](docs/LEGAL-AND-LICENSING.md)
-- [GitHub Discussions Setup](docs/GITHUB-DISCUSSIONS-SETUP.md)
-- [Maintainers and Ownership](docs/MAINTAINERS.md)
-- [Public Roadmap](docs/ROADMAP-PUBLIC.md)
-- [Landing Page Copy](docs/LANDING-PAGE-COPY.md)
-
-## Additional operational detail
-
-For a deeper public-facing operating model, also review:
-
-- [Access Matrix](docs/ACCESS-MATRIX.md)
-- [Threat Model](docs/THREAT-MODEL.md)
-- [Control Mapping](docs/CONTROL-MAPPING.md)
-- [Evidence and Audit](docs/EVIDENCE-AND-AUDIT.md)
-- [Pipelines and Quality Gates](docs/PIPELINES-AND-QUALITY-GATES.md)
-- [Visuals and Header](docs/VISUALS-AND-HEADER.md)
-
-
-![Governance overview](docs/images/governance-overview.svg)
-
-## Demo content and sample outputs
-
-This repository now includes reusable demo material so that it can be shown in workshops, customer conversations, architecture reviews and onboarding sessions without requiring a live environment.
-
-- `demo-data/sample-result.json`
-- `demo-data/sample-config.yaml`
-- `demo-data/sample-health-report.csv`
-- `docs/EXAMPLE-OUTPUTS.md`
-- `examples/demo-walkthrough.md`
-
-## Landing page and presentation structure
-
-To make the repository easier to present and easier to find, the following assets are included:
-
-- `docs/HOMEPAGE-STRUCTURE.md`
-- `docs/WORKSHOP-KIT.md`
-- `docs/RELEASE-CONTENT.md`
-- `docs/BADGE-URLS.md`
-- `docs/SCREENSHOT-PLAN.md`
-- `docs/FUNCTIONAL-EXTENSIONS-v9.md`
-- `docs/images/homepage-hero.svg`
-- `docs/images/landing-page-wireframe.svg`
-
-## Sample deliverables for this repository
-
-- ARM templates
-- deployment notes
-- cluster topology visuals
-- parameter examples
-
-## Search and discovery hints
-
-The content of this repository is intentionally written so that it is easier to discover around these terms: azure nlb cluster, arm template, seppmail high availability, synedat.
-
-## Synedat note
-
-Synedat Group GmbH uses a consistent public repository structure to make reusable engineering assets easier to evaluate, adapt and operate across architecture, automation, security and operational resilience topics.
-
-
-
-        ## v10 demo pages and richer sample artifacts
-
-        This repository now includes a small HTML demo page and richer sample artifacts that help present functionality without a live environment.
-
-        - `pages/index.html`
-        - `demo-data/sample-report.json`
-        - `demo-data/sample-events.ndjson`
-        - `demo-data/sample-metrics.csv`
-        - `docs/DETAILED-ARCHITECTURE-v10.md`
-        - `docs/IMPLEMENTATION-PLAYBOOK-v10.md`
-        - `docs/USE-CASE-CATALOG-v10.md`
-        - `docs/EXAMPLE-REPORTS-v10.md`
-        - `docs/PORTFOLIO-LINKS-v10.md`
-        - `docs/SEARCH-KEYWORDS-v10.md`
-        - `docs/images/homepage-hero-v10.svg`
-        - `docs/images/architecture-delivery-view.svg`
-
-        ## Suggested metrics and storyline
-
-        Use these metrics and discussion anchors in demos, release notes and workshops:
-        - Deployment validation status
-- Probe health
-- Parameter completeness
-- Cluster topology readiness
-
-        ## Synedat public portfolio angle
-
-        This repository is part of a broader Synedat portfolio that intentionally combines technical examples, architecture guidance, operations depth and governance-aware documentation so that teams can discover useful starting points faster.

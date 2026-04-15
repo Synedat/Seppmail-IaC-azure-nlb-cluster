@@ -1,18 +1,40 @@
 # Landing Page Copy
 
-## Short pitch
+## Hero
 
-ARM and scripting patterns for Azure NLB cluster setups in SEPPmail-related deployments.
+**SEPPmail auf Azure mit Synedat**
 
-## Extended copy
+Technischer Starter, Demo-Repository und Gesprächsgrundlage für sichere E-Mail-Kommunikation, High Availability und kontrollierte Einführung.
 
-Seppmail-IaC-azure-nlb-cluster is a public Synedat repository for practitioners who want practical guidance, examples and structured documentation around SEPPmail-related operations, integration and secure delivery patterns.
+## Kurzpitch
 
-The content is written to be useful for architects, administrators, platform engineers and security-conscious delivery teams working with Microsoft 365, Azure, APIs, automation and regulated IT environments.
+Dieses Repository zeigt, wie sich SEPPmail-bezogene Azure- und HA-Szenarien strukturiert vorbereiten, architektonisch bewerten und in Richtung Delivery überführen lassen.
 
-## Suggested CTA blocks
+## Nutzenblöcke
 
-- Start with the README and demo scenarios
-- Review architecture, permissions and control mapping
-- Use examples and runbooks as a starting point for your own environment
-- Follow official SEPPmail documentation for product-specific details
+### Warum SEPPmail
+
+- automatische E-Mail-Verschlüsselung
+- Unterstützung gängiger Standards
+- Hochverfügbarkeit und Clusterfähigkeit
+- Integration in bestehende Verzeichnis- und Betriebsumgebungen
+
+### Warum Synedat
+
+- Architektur- und Einführungsworkshops
+- technische Einordnung für Azure und Betrieb
+- Delivery-nahe Dokumentation und Automatisierung
+- strukturierte Übergabe in Richtung Umsetzung
+
+### Was dieses Repo liefert
+
+- Architektur- und Betriebsdokumentation
+- ARM- und Deployment-Artefakte
+- Demo- und Workshop-Material
+- Quellen- und Bildnachweise
+
+## CTA-Vorschläge
+
+- Architekturgespräch mit Synedat starten
+- Repository als Demo- und Workshop-Basis verwenden
+- Offizielle SEPPmail-Produktinformationen lesen

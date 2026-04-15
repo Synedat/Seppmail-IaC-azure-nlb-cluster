@@ -1,35 +1,17 @@
-# Seppmail-IaC-azure-nlb-cluster
+# SEPPmail auf Azure mit Synedat
 
-ARM-based Azure load-balancer and cluster deployment patterns for SEPPmail-related high-availability scenarios.
+Dieses Repository ist als **technischer Starter**, **Demo-Unterlage** und **vertriebsfähige Gesprächsgrundlage** für SEPPmail-nahe Azure-Szenarien konzipiert.
 
-## Why this repository exists
+## Nutzen
 
-Use this repository to review and modernise ARM-based deployment patterns for resilient Azure messaging topologies.
+- Architektur und HA-Grundlagen verständlich machen
+- SEPPmail-Kontext mit Azure- und Betriebsbezug verbinden
+- Synedat als Ansprechpartner für Architektur, Einführung und Umsetzung sichtbar machen
 
-## What you will find here
+## Einstieg
 
-- Architecture and implementation notes
-- Security, compliance and control mapping content
-- Example scripts and reusable patterns
-- Operations, troubleshooting and observability guidance
-- Demo scenarios, release notes and community entry points
-
-## Audience
-
-Cloud platform engineers, architects and deployment leads.
-
-## Focus areas
-
-arm templating, deployment validation, network design, availability thinking and change-safe rollout
-
-## Recommended reading order
-
-1. `README.md`
-2. `docs/ARCHITECTURE.md`
-3. `docs/SECURITY-AND-COMPLIANCE.md`
-4. `docs/OPERATIONS.md`
-5. `docs/DEMO-SCENARIOS.md`
-
-## Synedat
-
-Synedat provides consulting, engineering and delivery support around secure, resilient and operationally mature IT platforms. This repository is structured to be useful for public learning, partner delivery and internal engineering reuse.
+- `README.md`
+- `pages/index.html`
+- `docs/SYNEDAT.md`
+- `docs/SEPPMAIL-REFERENCES.md`
+- `docs/SALES-REPOSITIONING.md`

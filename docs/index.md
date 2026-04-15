@@ -1,35 +1,32 @@
-# Seppmail-IaC-azure-nlb-cluster
+# SEPPmail auf Azure mit Synedat
 
-ARM-based Azure load-balancer and cluster deployment patterns for SEPPmail-related high-availability scenarios.
+Dieses Repository ist als **technischer Starter** und als **vertriebsfähige Gesprächsgrundlage** für SEPPmail-bezogene Azure- und High-Availability-Szenarien aufgebaut.
 
-## Why this repository exists
+## Zielbild
 
-Use this repository to review and modernise ARM-based deployment patterns for resilient Azure messaging topologies.
+Die Inhalte sollen nicht nur technische Artefakte zeigen, sondern auch verständlich machen,
 
-## What you will find here
+- warum SEPPmail für sichere E-Mail-Kommunikation relevant ist,
+- wie Azure- und HA-Szenarien strukturiert gedacht werden können,
+- und warum Synedat ein sinnvoller Ansprechpartner für Architektur, Einführung und Delivery ist.
 
-- Architecture and implementation notes
-- Security, compliance and control mapping content
-- Example scripts and reusable patterns
-- Operations, troubleshooting and observability guidance
-- Demo scenarios, release notes and community entry points
-
-## Audience
-
-Cloud platform engineers, architects and deployment leads.
-
-## Focus areas
-
-arm templating, deployment validation, network design, availability thinking and change-safe rollout
-
-## Recommended reading order
+## Einstieg
 
 1. `README.md`
-2. `docs/ARCHITECTURE.md`
-3. `docs/SECURITY-AND-COMPLIANCE.md`
-4. `docs/OPERATIONS.md`
-5. `docs/DEMO-SCENARIOS.md`
+2. `pages/index.html`
+3. `docs/SYNEDAT.md`
+4. `docs/SEPPMAIL-REFERENCES.md`
+5. `docs/ARCHITECTURE.md`
+6. `docs/OPERATIONS.md`
 
-## Synedat
+## Was hier besonders wichtig ist
 
-Synedat provides consulting, engineering and delivery support around secure, resilient and operationally mature IT platforms. This repository is structured to be useful for public learning, partner delivery and internal engineering reuse.
+- klare Nutzenargumentation statt rein technischer Selbstbeschreibung
+- sichtbare Positionierung von Synedat
+- nachvollziehbare Hersteller- und Quellenbezüge
+- nutzbare Assets für Demo, Workshop und Architekturgespräch
+
+## Hersteller- und Quellenbezug
+
+Die öffentlichen Produkt- und Partnerinformationen von SEPPmail sind in `docs/SEPPMAIL-REFERENCES.md` zusammengeführt.
+Die Herkunft des verwendeten Produktbilds ist in `docs/IMAGE-SOURCES.md` dokumentiert.

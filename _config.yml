@@ -1,4 +1,4 @@
-title: Seppmail-IaC-azure-nlb-cluster
-description: ARM-based Azure load-balancer and cluster deployment patterns for SEPPmail-related high-availability scenarios.
+title: SEPPmail auf Azure mit Synedat
+description: Vertriebsfähige Landing Page und technischer Starter für SEPPmail-bezogene Azure- und High-Availability-Szenarien.
 theme: minima
 markdown: kramdown

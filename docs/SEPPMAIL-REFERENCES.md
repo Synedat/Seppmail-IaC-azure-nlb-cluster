@@ -1,16 +1,47 @@
-# Official References
+# Offizielle SEPPmail-Referenzen
 
-    ## SEPPmail references
+Diese Datei bündelt öffentliche Herstellerquellen, die für die Positionierung dieses Repositories relevant sind.
 
-    - [High availability cluster](https://docs.seppmail.com/en/04_com_09_cl_02_high-availability-cluster.html)
-- [High availability and load balancing](https://docs.seppmail.com/en/03_wp_03_sa_06_ha__high-availability-loadbalancing.html)
-- [General cluster modes](https://docs.seppmail.com/en/04_com_09_cl_01_general.html)
+## Produkt und Funktionen
 
-    ## Governance and compliance references
+- Secure E-Mail Gateway:
+  https://www.seppmail.com/de/produkte/secure-e-mail-gateway/
+- Startseite DE:
+  https://www.seppmail.com/de/
+- Secure E-Mail Gateway EN:
+  https://www.seppmail.com/products/secure-email-gateway/
 
-    - [ISO/IEC 27001](https://www.iso.org/standard/27001)
-- [BAIT / BaFin risk management overview](https://www.bafin.de/EN/Aufsicht/BankenFinanzdienstleister/Risikomanagement/risikomanagement_node_en.html)
-- [DORA overview](https://www.esma.europa.eu/esmas-activities/digital-finance-and-innovation/digital-operational-resilience-act-dora)
-- [TISAX overview](https://www.enx.com/tisax/)
-- [NIS2 summary](https://eur-lex.europa.eu/EN/legal-content/summary/cybersecurity-of-network-and-information-systems.html)
-- [Synedat Group GmbH](https://www.synedat.com/)
+## Hochverfügbarkeit und Cluster
+
+- High Availability Cluster:
+  https://docs.seppmail.com/en/04_com_09_cl_02_high-availability-cluster.html
+- High availability and load balancing:
+  https://docs.seppmail.com/en/03_wp_03_sa_06_ha__high-availability-loadbalancing.html
+- General cluster modes:
+  https://docs.seppmail.com/en/04_com_09_cl_01_general.html
+
+## Partner, Vertrieb und Support
+
+- Partnerübersicht:
+  https://www.seppmail.com/de/partner/
+- Partnerprogramm:
+  https://www.seppmail.com/de/partner/partnerprogramm/
+- Support:
+  https://www.seppmail.com/de/support/
+- Partnerportal DE/AT:
+  https://partner.seppmail.com/
+
+## Warum diese Quellen wichtig sind
+
+Diese Herstellerquellen stützen die öffentliche Argumentation zu folgenden Punkten:
+
+- SEPPmail bietet Funktionsbausteine wie Verschlüsselung, GINA, Cluster, Integration und Monitoring.
+- SEPPmail kommuniziert ein Partner- und Vertriebskonzept mit zertifizierten Systemintegratoren und Cloud-Anbietern.
+- SEPPmail verweist Endkunden im Support- und Einführungsumfeld auf akkreditierte bzw. zertifizierte Partner.
+
+## Synedat-Kontext
+
+- Synedat Group GmbH:
+  https://www.synedat.com/
+
+Hinweis: Diese Referenzseite dokumentiert offizielle Herstellerquellen. Sie ersetzt keinen individuellen Partnernachweis von Synedat, falls eine solche Aussage öffentlich und rechtssicher besonders prominent gemacht werden soll.
