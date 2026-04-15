@@ -1,47 +1,239 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Seppmail-IaC-azure-nlb-cluster demo</title>
+  <title>SEPPmail auf Azure mit Synedat</title>
   <style>
-    body { font-family: Arial, Helvetica, sans-serif; margin:0; background:#f8fafc; color:#0f172a; }
-    header { background:linear-gradient(135deg,#0f172a,#1d4ed8); color:white; padding:48px 64px; }
-    main { max-width:1100px; margin:0 auto; padding:32px; }
-    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
-    .card { background:white; border:1px solid #cbd5e1; border-radius:18px; padding:20px; box-shadow:0 8px 24px rgba(15,23,42,.06); }
-    code, pre { background:#e2e8f0; border-radius:10px; padding:2px 6px; }
-    pre { padding:16px; overflow:auto; }
-    .pill { display:inline-block; background:#dbeafe; color:#1d4ed8; padding:8px 12px; border-radius:999px; margin-right:8px; margin-bottom:8px; }
+    :root {
+      --bg: #f8fafc;
+      --text: #0f172a;
+      --muted: #475569;
+      --line: #cbd5e1;
+      --brand: #1d4ed8;
+      --brand-dark: #0f172a;
+      --accent: #0f766e;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--text); }
+    a { color: var(--brand); }
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1d4ed8 55%, #38bdf8 100%);
+      color: white;
+      padding: 56px 24px;
+    }
+    .wrap { max-width: 1160px; margin: 0 auto; }
+    .hero {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 32px;
+      align-items: center;
+    }
+    .eyebrow {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(255,255,255,.14);
+      margin-bottom: 18px;
+      font-size: 14px;
+      letter-spacing: .02em;
+    }
+    h1 { font-size: 44px; line-height: 1.1; margin: 0 0 18px; }
+    .sub { font-size: 19px; line-height: 1.6; color: #dbeafe; margin: 0 0 20px; }
+    .cta-row { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+    .btn {
+      display: inline-block;
+      text-decoration: none;
+      border-radius: 12px;
+      padding: 14px 18px;
+      font-weight: 700;
+      border: 1px solid rgba(255,255,255,.24);
+    }
+    .btn-primary { background: white; color: var(--brand-dark); }
+    .btn-secondary { background: transparent; color: white; }
+    .hero-card {
+      background: rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.18);
+      border-radius: 24px;
+      padding: 20px;
+      backdrop-filter: blur(6px);
+    }
+    .hero-card img { width: 100%; border-radius: 18px; background: white; display: block; }
+    .hero-card p { font-size: 13px; line-height: 1.5; color: #dbeafe; margin: 12px 0 0; }
+    main { max-width: 1160px; margin: 0 auto; padding: 36px 24px 64px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px;
+      box-shadow: 0 10px 30px rgba(15,23,42,.05);
+    }
+    .card h2, .card h3 { margin-top: 0; }
+    .section-title { margin: 42px 0 16px; font-size: 30px; }
+    .muted { color: var(--muted); }
+    ul { padding-left: 18px; }
+    .pill {
+      display: inline-block;
+      background: #dbeafe;
+      color: #1d4ed8;
+      padding: 8px 12px;
+      border-radius: 999px;
+      margin: 0 8px 8px 0;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    .highlight {
+      border-left: 6px solid var(--accent);
+      padding: 18px 20px;
+      background: #ecfeff;
+      border-radius: 16px;
+      margin: 20px 0;
+    }
+    .sources {
+      font-size: 14px;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    footer {
+      margin-top: 46px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    @media (max-width: 900px) {
+      .hero { grid-template-columns: 1fr; }
+      h1 { font-size: 34px; }
+    }
   </style>
 </head>
 <body>
 <header>
-  <h1>Seppmail-IaC-azure-nlb-cluster</h1>
-  <p>Azure cluster deployment starters with architecture and resilience guidance.</p>
-  <p>Maintained by Synedat Group GmbH in the SEPPmail partner ecosystem.</p>
+  <div class="wrap hero">
+    <div>
+      <div class="eyebrow">SEPPmail auf Azure • Presales • Architektur • Delivery</div>
+      <h1>SEPPmail über Synedat überzeugend positionieren</h1>
+      <p class="sub">
+        Dieses Repository ist als technischer Starter und als vertriebsfähige Gesprächsgrundlage aufgebaut:
+        für Architektur-Workshops, Evaluierungen, Azure-Betriebsmodelle und konkrete SEPPmail-Projekte mit Synedat Group GmbH.
+      </p>
+      <div>
+        <span class="pill">Secure E-Mail Gateway</span>
+        <span class="pill">High Availability</span>
+        <span class="pill">Azure</span>
+        <span class="pill">Governance</span>
+        <span class="pill">Synedat</span>
+      </div>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="https://www.synedat.com/">Synedat ansehen</a>
+        <a class="btn btn-secondary" href="https://www.seppmail.com/de/produkte/secure-e-mail-gateway/">Offizielle SEPPmail-Produktseite</a>
+      </div>
+    </div>
+    <div class="hero-card">
+      <img src="../docs/images/seppmail-secure-email-gateway.jpg" alt="SEPPmail Secure E-Mail Gateway Produktabbildung" />
+      <p>
+        Produktabbildung aus der offiziellen SEPPmail-Produktseite „Secure E-Mail Gateway“.
+        Quelle und Ursprungsangabe: siehe <a style="color:#ffffff" href="../docs/IMAGE-SOURCES.md">docs/IMAGE-SOURCES.md</a>.
+      </p>
+    </div>
+  </div>
 </header>
 <main>
+  <section class="highlight">
+    <strong>Wichtig für die Außenwirkung:</strong>
+    Synedat sollte nicht nur als Maintainer erscheinen, sondern als klarer Ansprechpartner für Beratung,
+    Architektur, Implementierung, Automatisierung und Betriebsübergabe rund um SEPPmail-nahe Azure-Szenarien.
+  </section>
+
+  <h2 class="section-title">Was der Besucher sofort verstehen soll</h2>
   <section class="grid">
-    <div class="card"><h2>Focus</h2><p>ARM and PowerShell based Azure load balancer cluster patterns for SEPPmail</p></div>
-    <div class="card"><h2>Demo story</h2><p>Show how topology, probes, backend pools and parameter files fit together for HA discussions.</p></div>
-    <div class="card"><h2>Public value</h2><p>Use this repository as a credible technical starter for architecture reviews, operations onboarding, controlled demos and reusable engineering conversations.</p></div>
+    <div class="card">
+      <h3>1. Worum geht es?</h3>
+      <p class="muted">Um sichere E-Mail-Kommunikation mit SEPPmail und um belastbare Architektur- und Betriebsansätze für Azure- und HA-Szenarien.</p>
+    </div>
+    <div class="card">
+      <h3>2. Warum Synedat?</h3>
+      <p class="muted">Weil Synedat die Brücke zwischen Produkt, Zielarchitektur, Delivery, Dokumentation und Betriebsmodell sichtbar macht.</p>
+    </div>
+    <div class="card">
+      <h3>3. Was ist der konkrete Nutzen?</h3>
+      <p class="muted">Ein Repository, das nicht nur Technik zeigt, sondern als Demo-, Workshop- und Presales-Grundlage genutzt werden kann.</p>
+    </div>
   </section>
-  <section>
-    <h2>Metrics to show</h2>
-    <span class="pill">Deployment validation status</span><span class="pill">Probe health</span><span class="pill">Parameter completeness</span><span class="pill">Cluster topology readiness</span>
-  </section>
+
+  <h2 class="section-title">Warum SEPPmail für das Messaging- und Security-Umfeld relevant ist</h2>
   <section class="grid">
-    <div class="card"><h2>Sample report</h2><pre>{
-  "deployment": "cluster-demo",
-  "backendPool": 2,
-  "probe": "healthy",
-  "result": "success",
-  "evidenceId": "nlb-demo-009"
-}</pre></div>
-    <div class="card"><h2>Useful next extensions</h2><ul><li>parameter generator</li><li>HTML topology page</li><li>deployment checklist</li><li>architecture comparison matrix</li></ul></div>
+    <div class="card">
+      <h3>Automatische Verschlüsselung</h3>
+      <p class="muted">SEPPmail beschreibt automatische E-Mail-Verschlüsselung und -Entschlüsselung ohne Benutzerinteraktion sowie Unterstützung für S/MIME, OpenPGP, TLS und SSL.</p>
+    </div>
+    <div class="card">
+      <h3>Hochverfügbarkeit und Performance</h3>
+      <p class="muted">SEPPmail hebt Multi-Master-Cluster, aktive Lastverteilung und hohe Verfügbarkeit für Enterprise-Umgebungen hervor.</p>
+    </div>
+    <div class="card">
+      <h3>Integration und Betrieb</h3>
+      <p class="muted">LDAP/AD-Anbindung, Monitoring, Reporting und anpassbare Security Policies schaffen gute Anknüpfungspunkte für Delivery und Betrieb.</p>
+    </div>
   </section>
-  <section class="card"><h2>Synedat</h2><p>Synedat Group GmbH works across software engineering, cloud, infrastructure, operations and security-related implementation topics. The public repository family is intentionally structured so teams can discover, evaluate and adapt working material quickly.</p><p><a href="https://www.synedat.com/">www.synedat.com</a></p></section>
+
+  <h2 class="section-title">Wie Synedat dieses Repo als Verkaufsmedium nutzen kann</h2>
+  <section class="grid">
+    <div class="card">
+      <h3>Architekturgespräch</h3>
+      <ul>
+        <li>Azure-Zielbild zeigen</li>
+        <li>HA- und Load-Balancing-Logik erklären</li>
+        <li>Betriebs- und Sicherheitsaspekte einordnen</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Presales und Demo</h3>
+      <ul>
+        <li>Repository als Workshop-Unterlage nutzen</li>
+        <li>kundennahen Nutzen statt nur Template-Code zeigen</li>
+        <li>nächsten Schritt auf Demo oder Architekturworkshop lenken</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Delivery-Start</h3>
+      <ul>
+        <li>Artefakte für Reviews und Scoping einsetzen</li>
+        <li>Dokumentation für kontrollierte Einführung nutzen</li>
+        <li>Betriebs- und Übergabematerial vorbereiten</li>
+      </ul>
+    </div>
+  </section>
+
+  <h2 class="section-title">Empfohlene nächste Schritte</h2>
+  <section class="grid">
+    <div class="card">
+      <h3>Repo lesen</h3>
+      <p class="muted">README, Architektur, Operations, Security und Quellenhinweise prüfen.</p>
+    </div>
+    <div class="card">
+      <h3>Workshop vorbereiten</h3>
+      <p class="muted">Die Demo-Szenarien, den Workshop-Kit und die Landing-Page-Texte für Kundentermine verwenden.</p>
+    </div>
+    <div class="card">
+      <h3>Kontakt aufnehmen</h3>
+      <p class="muted">Für Evaluierung, Architekturabgleich oder Projektstart über Synedat in die nächste Stufe gehen.</p>
+    </div>
+  </section>
+
+  <h2 class="section-title">Quellen und Ursprung</h2>
+  <section class="card sources">
+    <p><strong>Offizielle SEPPmail-Produktquelle:</strong> Secure E-Mail Gateway auf seppmail.com</p>
+    <p><strong>Offizielle Herstellerquellen zu Partnern:</strong> Partnerprogramm, Partnerverzeichnis und Support auf seppmail.com</p>
+    <p><strong>Bildquelle:</strong> offizielle SEPPmail-Produktabbildung, lokal abgelegt mit Ursprungsangabe in <code>docs/IMAGE-SOURCES.md</code></p>
+    <p><strong>Hinweis:</strong> Die öffentliche Verfügbarkeit eines Herstellerbildes ersetzt keine separate Rechteprüfung für dauerhaftes Marketingmaterial.</p>
+  </section>
+
+  <footer>
+    <p>Maintained by Synedat Group GmbH. Diese Seite wurde inhaltlich auf Presales- und Verkaufsfähigkeit für SEPPmail-Projekte über Synedat ausgerichtet.</p>
+  </footer>
 </main>
 </body>
 </html>
